@@ -50,7 +50,7 @@ def get_requirements(filename='requirements.txt'):
 
 if __name__ == '__main__':
     setup(
-        name='Pixl',
+        name='HyperRez',
         version="1.0",
         description='Sharpen Blurry Memories: Supercharge Your Images with Pixl',
         long_description=readme(),
