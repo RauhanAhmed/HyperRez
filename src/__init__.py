@@ -51,6 +51,6 @@ class ImageUpscaler:
             "image"
         ],
         title = "Sharpen Blurry Memories: Supercharge Your Images with Generative AI (GFPGAN + RealESRGAN)",
-        article = "Pixl, a Python library built by Rauhan Ahmed Siddiqui, utilizes AI's power to upscale and enhance images. Leverage GFPGAN for face restoration and RealESRGAN for background upscaling, all deployed in a GPU-powered Gradio interface for lightning-fast results. Enhance your images like never before!",
+        article = "HyperRez, a Python library built by Rauhan Ahmed Siddiqui, utilizes AI's power to upscale and enhance images. Leverage GFPGAN for face restoration and RealESRGAN for background upscaling, all deployed in a GPU-powered Gradio interface for lightning-fast results. Enhance your images like never before!",
     )
     interface.launch(debug = True)
