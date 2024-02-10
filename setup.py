@@ -58,7 +58,7 @@ def get_requirements(filename='requirements.txt'):
 if __name__ == '__main__':
     setup(
         name='ImageEnhancer',
-        version="0.1",
+        version="1.0",
         description='Real-ESRGAN aims at developing Practical Algorithms for General Image Restoration',
         long_description=readme(),
         long_description_content_type='text/markdown',
