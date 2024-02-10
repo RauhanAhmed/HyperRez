@@ -52,7 +52,7 @@ if __name__ == '__main__':
     setup(
         name='HyperRez',
         version="1.0",
-        description='Sharpen Blurry Memories: Supercharge Your Images with Pixl',
+        description='Sharpen Blurry Memories: Supercharge Your Images with HyperRez',
         long_description=readme(),
         long_description_content_type='text/markdown',
         author='Rauhan Ahmed Siddiqui',
