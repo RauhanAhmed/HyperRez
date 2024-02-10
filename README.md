@@ -17,7 +17,7 @@ Enhance and upscale your images effortlessly with ImageEnhancer, a Python librar
 
 ![App Screenshot](https://i.ibb.co/wRTQwrt/Beige-and-White-Be-Yourself-Square-Pillow-2.png)
 
-![App Screenshot](https://i.ibb.co/p0rBRWW/Screenshot-2024-01-28-162934.png)
+![App Screenshot](https://i.ibb.co/m00WnDk/Screenshot-2024-01-28-162934.png)
 
 ![App Screenshot](https://i.ibb.co/hMg6Xd0/Screenshot-2024-01-28-162745.png)
 
