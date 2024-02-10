@@ -17,9 +17,9 @@ Enhance and upscale your images effortlessly with Pixl, a Python library crafted
 
 ![App Screenshot](https://i.ibb.co/wRTQwrt/Beige-and-White-Be-Yourself-Square-Pillow-2.png)
 
-![App Screenshot](https://i.ibb.co/m00WnDk/Screenshot-2024-01-28-162934.png)
+![App Screenshot](https://i.ibb.co/VLsXqY6/Screenshot-2024-02-11-005136.png)
 
-![App Screenshot](https://i.ibb.co/hMg6Xd0/Screenshot-2024-01-28-162745.png)
+![App Screenshot](https://i.ibb.co/BBKh0BR/Screenshot-2024-02-11-005236.png)
 
 ## Installation
 ```bash
