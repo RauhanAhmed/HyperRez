@@ -1,8 +1,8 @@
 
-# ImageEnhancer
+# Pixl
 
 
-Enhance and upscale your images effortlessly with ImageEnhancer, a Python library crafted by Rauhan Ahmed Siddiqui. Leveraging the power of GFPGAN and RealESRGAN, state-of-the-art Generative Adversarial Networks, this library provides advanced image enhancement capabilities. Real-ESRGAN focuses on upscaling backgrounds, while GFPGAN excels in refining the faces of human subjects.
+Enhance and upscale your images effortlessly with Pixl, a Python library crafted by Rauhan Ahmed Siddiqui. Leveraging the power of GFPGAN and RealESRGAN, state-of-the-art Generative Adversarial Networks, this library provides advanced image enhancement capabilities. Real-ESRGAN focuses on upscaling backgrounds, while GFPGAN excels in refining the faces of human subjects.
 
 
 ## Features
@@ -10,7 +10,7 @@ Enhance and upscale your images effortlessly with ImageEnhancer, a Python librar
 - **Dual Network Integration:** Combines Real-ESRGAN and GFPGAN for comprehensive image enhancement.
 - **Gradio Interface:** Seamlessly deployed into production using Gradio Interface for an interactive and user-friendly experience.
 - **GPU Acceleration:** Optimized for GPU processing, ensuring fast and efficient image enhancement (Note: Performance may be suboptimal on CPUs).
-- **PyPI Integration:** Available on PyPI as the "ImageEnhancer" library for easy installation and use.
+- **PyPI Integration:** Available on PyPI as the "Pixl" library for easy installation and use.
 
 
 ## Screenshots
@@ -23,13 +23,13 @@ Enhance and upscale your images effortlessly with ImageEnhancer, a Python librar
 
 ## Installation
 ```bash
-  pip install ImageEnhancer
+  pip install Pixl
 ```
     
 ## Usage
 
 ```python
-from ImageEnhancer import ImageUpscaler
+from Pixl import ImageUpscaler
 
 # Initialise the upscaler
 upscaler = ImageUpscaler()

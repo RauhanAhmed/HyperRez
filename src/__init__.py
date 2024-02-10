@@ -18,7 +18,7 @@ class ImageUpscaler:
     os.mkdir("inputs")
     image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
     cv2.imwrite("inputs/image.jpg", image)
-    os.system(f"python -m ImageEnhancer.inference_realesrgan -n RealESRGAN_x4plus -i inputs -o results --outscale {scale_factor} --face_enhance --face_enhance_model {model_version}")
+    os.system(f"python -m src.inference_realesrgan -n RealESRGAN_x4plus -i inputs -o results --outscale {scale_factor} --face_enhance --face_enhance_model {model_version}")
     filename = os.listdir("results")[0]
     file_path = os.path.join("results", filename)
     result_image = cv2.imread(file_path)
@@ -51,6 +51,6 @@ class ImageUpscaler:
             "image"
         ],
         title = "Sharpen Blurry Memories: Supercharge Your Images with Generative AI (GFPGAN + RealESRGAN)",
-        article = "ImageEnhancer, a Python library built by Rauhan Ahmed Siddiqui, utilizes AI's power to upscale and enhance images. Leverage GFPGAN for face restoration and RealESRGAN for background upscaling, all deployed in a GPU-powered Gradio interface for lightning-fast results. Enhance your images like never before!",
+        article = "Pixl, a Python library built by Rauhan Ahmed Siddiqui, utilizes AI's power to upscale and enhance images. Leverage GFPGAN for face restoration and RealESRGAN for background upscaling, all deployed in a GPU-powered Gradio interface for lightning-fast results. Enhance your images like never before!",
     )
     interface.launch(debug = True)

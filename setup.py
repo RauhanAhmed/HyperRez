@@ -1,19 +1,13 @@
-#!/usr/bin/env python
-
 from setuptools import find_packages, setup
 
 import os
 import subprocess
 import time
 
-version_file = 'realesrgan/version.py'
-
-
 def readme():
     with open('README.md', encoding='utf-8') as f:
         content = f.read()
     return content
-
 
 def get_git_hash():
 
@@ -54,18 +48,17 @@ def get_requirements(filename='requirements.txt'):
         requires = [line.replace('\n', '') for line in f.readlines()]
     return requires
 
-
 if __name__ == '__main__':
     setup(
-        name='ImageEnhancer',
+        name='Pixl',
         version="1.0",
-        description='Real-ESRGAN aims at developing Practical Algorithms for General Image Restoration',
+        description='Sharpen Blurry Memories: Supercharge Your Images with Pixl',
         long_description=readme(),
         long_description_content_type='text/markdown',
         author='Rauhan Ahmed Siddiqui',
-        author_email='rauhaan.siddiqui@outlook.com',
+        author_email='rauhaan.siddiqui@gamil.com',
         keywords='computer vision, pytorch, image restoration, super-resolution, esrgan, real-esrgan, gfpgan, gradio, image enhancer, image quality enhancement, image upscaler, image quality upscaler',
-        url='https://github.com/RauhanAhmed/ImageEnhancer',
+        url='https://github.com/RauhanAhmed/Pixl',
         include_package_data=True,
         packages=find_packages(exclude=('options', 'datasets', 'experiments', 'results', 'tb_logger', 'wandb')),
         license='MIT',
