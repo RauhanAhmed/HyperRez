@@ -1,5 +1,5 @@
 
-# Pixl
+# Pixl: Sharpen Blurry Memories
 
 
 Enhance and upscale your images effortlessly with Pixl, a Python library crafted by Rauhan Ahmed Siddiqui. Leveraging the power of GFPGAN and RealESRGAN, state-of-the-art Generative Adversarial Networks, this library provides advanced image enhancement capabilities. Real-ESRGAN focuses on upscaling backgrounds, while GFPGAN excels in refining the faces of human subjects.
