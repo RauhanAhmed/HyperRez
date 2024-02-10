@@ -49,4 +49,3 @@ upscaler.launchInterface()
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
-
