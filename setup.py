@@ -59,7 +59,6 @@ if __name__ == '__main__':
         author_email='rauhaan.siddiqui@gamil.com',
         keywords='computer vision, pytorch, image restoration, super-resolution, esrgan, real-esrgan, gfpgan, gradio, image enhancer, image quality enhancement, image upscaler, image quality upscaler',
         url='https://github.com/RauhanAhmed/Pixl',
-        include_package_data=True,
         packages=find_packages(exclude=('options', 'datasets', 'experiments', 'results', 'tb_logger', 'wandb')),
         license='MIT',
         setup_requires=['cython', 'numpy'],
