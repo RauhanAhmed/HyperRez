@@ -51,7 +51,7 @@ def get_requirements(filename='requirements.txt'):
 if __name__ == '__main__':
     setup(
         name='HyperRez',
-        version="1.0",
+        version="2.0",
         description='Sharpen Blurry Memories: Supercharge Your Images with HyperRez',
         long_description=readme(),
         long_description_content_type='text/markdown',
