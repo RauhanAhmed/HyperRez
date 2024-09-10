@@ -17,7 +17,7 @@ Enhance and upscale your images effortlessly with HyperRez, a Python library cra
 
 ![App Screenshot](https://i.ibb.co/wRTQwrt/Beige-and-White-Be-Yourself-Square-Pillow-2.png)
 
-![App Screenshot](https://i.ibb.co/VLsXqY6/Screenshot-2024-02-11-005136.png)
+![App Screenshot](https://i.ibb.co/1sGJgCZ/Screenshot-2024-01-28-162934.png)
 
 ![App Screenshot](https://i.ibb.co/BBKh0BR/Screenshot-2024-02-11-005236.png)
 
